@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "REPLACE",
+  "version": "1.0",
+  "description": "REPLACE",
+  "content_scripts": [
+    {
+      "js": ["./main.js"],
+      "css":["index.css"]
+    }
+  ]
+}
