@@ -1,9 +1,11 @@
-//const body = document.querySelector('body');
-//const contents = document.getElementById('contents');
-//<body style='background-color: rgb(43,226,101)' />;
-//contents.parentNode.removeChild(contents);
+// const img = document.getElementById('img');
+// const imgParent = img.parentNode;
+// imgParent.removeChild(img);
 
-// var myAudio = new Audio(
-//   chrome.runtime.getURL('youtu.be/yXQViqx6GMY?si=QeBeT44P-0XVGPSc')
-// );
-// myAudio.play();
+// // Create an image element
+const image = document.createElement('img');
+image.src =
+  'https://www.seussville.com/app/uploads/2019/11/character-Grinch.png';
+contentsParent.appendChild(image);
+
+

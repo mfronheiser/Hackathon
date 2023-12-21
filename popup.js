@@ -12,10 +12,17 @@ document.addEventListener('DOMContentLoaded', () => {
   //       '_blank';
   //   });
 
-  const button1 = document.getElementById('help-button');
-  button1.addEventListener('click', function () {
+  const yesButton = document.getElementById('yes-button');
+  yesButton.addEventListener('click', function () {
     chrome.tabs.create({
       url: 'https://youtu.be/yXQViqx6GMY?si=ZpGcdEcnl-6iafZ7',
+    });
+  });
+
+  const noButton = document.getElementById('no-button');
+  noButton.addEventListener('click', function () {
+    chrome.tabs.create({
+      url: 'https://www.seussville.com/app/uploads/2019/11/character-Grinch.png',
     });
   });
 });
