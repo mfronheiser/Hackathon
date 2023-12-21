@@ -5,8 +5,16 @@
   "description": "REPLACE",
   "content_scripts": [
     {
+      "matches": ["<all_urls>"],
       "js": ["./main.js"],
-      "css":["index.css"]
+      "css": ["index.css"]
     }
-  ]
+  ],
+  // "web_accessible_resources": [
+  //   "https://youtu.be/yXQViqx6GMY?si=ZpGcdEcnl-6iafZ7"
+  // ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["tabs"]
 }
